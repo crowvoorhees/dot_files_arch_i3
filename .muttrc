@@ -1,18 +1,13 @@
 source ~/.mutt/colors.urxvt
+
 set editor="vim"
 bind index g imap-fetch-mail
 
-set from = "blading82@gmail.com"
-set realname = "Mark"
-set imap_user = "blading82@gmail.com"
-set imap_pass = "jeojssoansymcgii"
+source "~/.mutt/personal"
+folder-hook $folder 'source ~/.mutt/personal'
 
-set folder = "imaps://imap.gmail.com:993"
-set spoolfile = "+INBOX"
-set postponed = "+[Google Mail]/Drafts"
-
-set smtp_url = "smtps://blading82@smtp.gmail.com:465/"
-set smtp_pass = "jeojssoansymcgii"
+#source "~/.mutt/professional"
+#folder-hook $folder 'source ~/.mutt/professional'
 
 set header_cache = ~/.mutt/cache/headers
 set message_cachedir = ~/.mutt/cache/bodies
