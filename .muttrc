@@ -1,0 +1,26 @@
+source ~/.mutt/colors.urxvt
+set editor="vim"
+bind index g imap-fetch-mail
+
+set from = "blading82@gmail.com"
+set realname = "Mark"
+set imap_user = "blading82@gmail.com"
+set imap_pass = "jeojssoansymcgii"
+
+set folder = "imaps://imap.gmail.com:993"
+set spoolfile = "+INBOX"
+set postponed = "+[Google Mail]/Drafts"
+
+set smtp_url = "smtps://blading82@smtp.gmail.com:465/"
+set smtp_pass = "jeojssoansymcgii"
+
+set header_cache = ~/.mutt/cache/headers
+set message_cachedir = ~/.mutt/cache/bodies
+set certificate_file = ~/.mutt/certificates
+
+set move = no
+set imap_keepalive = 900
+set timeout = 60
+
+set sort = reverse-threads
+set sort_aux = last-date-received

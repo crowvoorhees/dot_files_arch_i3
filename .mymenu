@@ -1,0 +1,19 @@
+
+[apps]
+ tree          : directory list
+ tty-clock     : terminal digital clock
+ tmux          : terminal multiplexer
+ screenfetch   : print system information
+ weechat       : irc client
+ mutt          : email client
+ htop          : system process monitor
+ pacup	       : check packages to be updated
+ yup           : check aur packages to be updated
+ turses        : twitter client
+ rtv           : reddit client
+
+[games]
+ ninvader      : space invaders clone
+ brogue        : roguelike adventure
+ dwarffortress : dwarf simulator
+
