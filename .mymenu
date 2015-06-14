@@ -5,6 +5,7 @@
  tmux          : terminal multiplexer
  screenfetch   : print system information
  htop          : system process monitor
+ apvlv         : pdf viewer
 
 [packages]
  pacup         : update packages
@@ -21,3 +22,4 @@
  ninvader      : space invaders clone
  brogue        : roguelike adventure
  dwarffortress : dwarf simulator
+ openarena     : quake III clone
