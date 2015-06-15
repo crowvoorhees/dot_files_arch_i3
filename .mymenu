@@ -17,6 +17,7 @@
  weechat       : irc client    
  turses        : twitter client
  rtv           : reddit client
+ pianobar      : pandora radio client
 
 [games]
  ninvader      : space invaders clone

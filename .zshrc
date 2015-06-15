@@ -5,7 +5,7 @@ export ZSH=/home/crowvoorhees/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="fino"
+ZSH_THEME="fino_c"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -45,7 +45,7 @@ ZSH_THEME="fino"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git archlinux battery colorize command-not-found common-aliases copydir copyfile cp github git-prompt history python screen tmux vim-interaction vi-mode)
+plugins=(git zsh-syntax-highlighting web-search)
 
 # User configuration
 
@@ -91,3 +91,7 @@ alias pacup='sudo pacman -Syu'
 alias yup='yaourt -Syu --aur'
 alias screenfetch='screenfetch -c 4, 1'
 alias mocp='mocp -T darkdot_theme'
+
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+autoload -U compinit
+compinit
