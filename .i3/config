@@ -38,6 +38,9 @@ bindsym $mod+z exec urxvt -e zsh
 # start browser
 bindsym $mod+b exec qutebrowser
 
+# start minitube w/ gnome buttons
+bindsym $mod+m exec DESKTOP_SESSION=gnome minitube
+
 # kill focused window
 bindsym $mod+Shift+q kill
 

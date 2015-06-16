@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/home/crowvoorhees/.oh-my-zsh
-
+export DESKTOP_SESSION=gnome
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -91,6 +91,7 @@ alias pacup='sudo pacman -Syu'
 alias yup='yaourt -Syu --aur'
 alias screenfetch='screenfetch -c 4, 1'
 alias mocp='mocp -T darkdot_theme'
+alias minitube_audio_fix='sudo mv /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so_bak'
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -U compinit

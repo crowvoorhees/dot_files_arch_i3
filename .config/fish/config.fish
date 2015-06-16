@@ -21,7 +21,8 @@ alias yup='yaourt -Syu --aur'
 alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias screenfetch='screenfetch -c 4, 1'
 alias mocp='mocp -T darkdot_theme'
-
+alias minitube_audio_fix='sudo mv /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so_bak'
+ 
 function fish_title
  # no title
 end
