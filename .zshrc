@@ -31,6 +31,9 @@ alias mocp='mocp -T darkdot_theme'
 alias minitube_audio_fix='sudo mv /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so_bak'
 alias i3statusconfig='sudo vim /etc/i3status.conf'
 alias i3config='vim ~/.i3/config' 
+alias zshrc='vim ~/.zshrc'
+alias bashrc='vim ~/.bashrc'
+alias fishrc='vim ~/.fishrc'
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
