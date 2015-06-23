@@ -7,34 +7,6 @@ export ZSH=/home/crowvoorhees/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="fino_c"
 
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls='ls -hF --color=tty'
-alias la='ls -a'
-alias ll='ls -l'
-alias lla='ll -a'
-alias tree='tree -C'
-alias ta='tree -a'
-alias clock='tty-clock -c -C 4 -t -f %d%b%Y'
-alias tmuxkill='tmux kill-session -a'
-alias mymenu='cat ~/.mymenu'
-alias pacup='sudo pacman -Syu'
-alias yup='yaourt -Syu --aur'
-alias screenfetch='screenfetch -c 4, 1'
-alias mocp='mocp -T darkdot_theme'
-alias minitube_audio_fix='sudo mv /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so_bak'
-alias i3statusconfig='sudo vim /etc/i3status.conf'
-alias i3config='vim ~/.i3/config' 
-alias zshrc='vim ~/.zshrc'
-alias bashrc='vim ~/.bashrc'
-alias fishrc='vim ~/.fishrc'
-
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -97,6 +69,34 @@ source $ZSH/oh-my-zsh.sh
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ls='ls -hF --color=tty'
+alias la='ls -a'
+alias ll='ls -l'
+alias lla='ll -a'
+alias tree='tree -C'
+alias ta='tree -a'
+alias clock='tty-clock -c -C 4 -t -f %d%b%Y'
+alias tmuxkill='tmux kill-session -a'
+alias mymenu='cat ~/.mymenu'
+alias pacup='sudo pacman -Syu'
+alias yup='yaourt -Syu --aur'
+alias screenfetch='screenfetch -c 4, 1'
+alias mocp='mocp -T darkdot_theme'
+alias minitube_audio_fix='sudo mv /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so_bak'
+alias i3statusconfig='sudo vim /etc/i3status.conf'
+alias i3config='vim ~/.i3/config' 
+alias zshrc='vim ~/.zshrc'
+alias bashrc='vim ~/.bashrc'
+alias fishrc='vim ~/.fishrc'
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -U compinit

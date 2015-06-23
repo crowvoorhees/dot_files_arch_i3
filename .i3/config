@@ -32,8 +32,11 @@ floating_modifier $mod
 # start a terminal w/ default shell
 bindsym $mod+Return exec urxvt
 
-# start a terminal w/ z shell
-bindsym $mod+z exec urxvt -e zsh
+# start a terminal w/ fish shell
+#bindsym $mod+' exec urxvt -e fish
+
+# start a terminal w/ bash shell
+#bindsym $mod+; exec urxvt -e bash
 
 # start browser
 bindsym $mod+b exec qutebrowser
