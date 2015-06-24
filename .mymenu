@@ -6,6 +6,7 @@
  screenfetch   : print system information
  htop          : system process monitor
  apvlv         : pdf viewer
+ scrot         : screen capture tool
 
 [packages]
  pacup         : update packages
