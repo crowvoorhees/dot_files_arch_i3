@@ -39,7 +39,7 @@ ZSH_THEME="fino_c"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+ZSH_CUSTOM=/home/crowvoorhees/Github/dot_files_arch_i3/.oh-my-zsh/custom
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
@@ -84,7 +84,7 @@ alias ll='ls -l'
 alias lla='ll -a'
 alias tree='tree -C'
 alias ta='tree -a'
-alias clock='tty-clock -c -C 4 -t -f %d%b%Y'
+alias clock='tty-clock -c -C 4 -t -f %d%b%Y -S'
 alias tmuxkill='tmux kill-session -a'
 alias mymenu='cat ~/.mymenu'
 alias pacup='sudo pacman -Syu'
