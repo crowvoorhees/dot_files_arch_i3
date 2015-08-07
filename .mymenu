@@ -7,6 +7,7 @@
  htop          : system process monitor
  apvlv         : pdf viewer
  scrot         : screen capture tool
+ mpv           : media player
 
 [packages]
  pacup         : update packages
@@ -15,10 +16,13 @@
 [internet]
  mutt          : email client
  mcabber       : instant message client
- weechat       : irc client    
+ weechat       : irc client
+ irssi         : irc client (twitch.tv)    
  turses        : twitter client
  rtv           : reddit client
  pianobar      : pandora radio client
+ geeknote      : evernote client
+ livestreamer  : streaming application
 
 [games]
  ninvader      : space invaders clone
