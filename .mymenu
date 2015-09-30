@@ -24,6 +24,7 @@
  pianobar      : pandora radio client
  geeknote      : evernote client
  livestreamer  : streaming application
+ howdoi        : instant coding answer
 
 [games]
  ninvader      : space invaders clone
