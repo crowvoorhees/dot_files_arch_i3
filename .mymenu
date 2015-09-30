@@ -8,6 +8,7 @@
  apvlv         : pdf viewer
  scrot         : screen capture tool
  mpv           : media player
+ kodi          : media player
 
 [packages]
  pacup         : update packages
