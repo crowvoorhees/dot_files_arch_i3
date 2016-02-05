@@ -25,6 +25,7 @@
  geeknote      : evernote client
  livestreamer  : streaming application
  howdoi        : instant coding answer
+ gcalcli       : google calendar client
 
 [games]
  ninvader      : space invaders clone
