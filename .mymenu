@@ -9,6 +9,7 @@
  tmux          : terminal multiplexer
  tree          : directory list
  tty-clock     : terminal digital clock
+ bleachbit     : junk cleaner
 
 [media]
  apvlv         : pdf viewer

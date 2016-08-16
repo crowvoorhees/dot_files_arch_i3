@@ -1,3 +1,5 @@
+set nocompatible
+
 " ==================================================================
 " Plugins & Addons
 " ==================================================================
@@ -31,13 +33,13 @@ colorscheme gruvbox
 " enable syntax
 syntax on
 
-" search: show where the pattern is while it is being typed
+" search: find as you type
 set incsearch
 
-" search: case of normal letter is ignored when searching
+" search: case insensitive search 
 set ignorecase
 
-" search: override ignorecase when searching patters containing upper case
+" search: case sensitive when uppercase present
 set smartcase
 
 " search: pattern highlighting
@@ -52,3 +54,4 @@ set shortmess+=I
 
 " F2: open NERDTree in home
 :map <F2> :NERDTree ~/<CR>
+
