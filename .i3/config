@@ -39,13 +39,16 @@ bindsym $mod+Return exec urxvt
 #bindsym $mod+; exec urxvt -e bash
 
 # start browser
-bindsym $mod+b exec qutebrowser
+#bindsym $mod+b exec qutebrowser
+bindsym $mod+b exec dwb
 
 # start minitube w/ gnome buttons
 bindsym $mod+m exec DESKTOP_SESSION=gnome minitube
 
 # kill focused window
 bindsym $mod+Shift+q kill
+
+bindsym $mod+q exec ~/Scripts/i3lockscreen.sh
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run -b
