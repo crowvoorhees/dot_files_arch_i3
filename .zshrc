@@ -103,6 +103,7 @@ alias fishrc='vim ~/.fishrc'
 alias glog-"git --no-pager log --graph --oneline --decorate --all --pretty=format:'%Cred%h%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-relative"
 alias gstatus="git status -sb"
 alias gbranches="git branch --all"
+alias gadd="git add --all"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -U compinit
