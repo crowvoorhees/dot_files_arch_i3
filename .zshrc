@@ -53,6 +53,7 @@ plugins=(git zsh-syntax-highlighting web-search tmux)
 
 export PATH="/usr/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
+export MANPAGER="env MAN_PN=1 vim -M +MANPAGER -"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,7 +100,9 @@ alias i3config='vim ~/.i3/config'
 alias zshrc='vim ~/.zshrc'
 alias bashrc='vim ~/.bashrc'
 alias fishrc='vim ~/.fishrc'
+alias glog-"git --no-pager log --graph --oneline --decorate --all --pretty=format:'%Cred%h%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-relative"
+alias gstatus="git status -sb"
+alias gbranches="git branch --all"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -U compinit
-compinit

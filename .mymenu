@@ -16,6 +16,7 @@
  kodi          : media player
  mpv           : media player
  ncmpcpp       : music player
+ mcop          : music player
 
 [internet]
  gcalcli       : google calendar client
