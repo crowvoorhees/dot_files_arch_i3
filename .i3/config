@@ -39,16 +39,11 @@ bindsym $mod+Return exec urxvt
 #bindsym $mod+; exec urxvt -e bash
 
 # start browser
-#bindsym $mod+b exec qutebrowser
-bindsym $mod+b exec dwb
-
-# start minitube w/ gnome buttons
-bindsym $mod+m exec DESKTOP_SESSION=gnome minitube
+bindsym $mod+b exec qutebrowser
+#bindsym $mod+b exec dwb
 
 # kill focused window
 bindsym $mod+Shift+q kill
-
-bindsym $mod+q exec ~/Scripts/i3lockscreen.sh
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run -b
@@ -107,14 +102,13 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-for_window [class="Wine"] floating enabled
-for_window [class="Pidgin"] floating enabled
-for_window [class="retroarch"] floating enabled
-
 # volume controls
-bindsym XF86AudioMute exec "/usr/bin/amixer -q sset Master 0%"
-bindsym XF86AudioLowerVolume exec "/usr/bin/amixer -q sset Master 2-"
-bindsym XF86AudioRaiseVolume exec "/usr/bin/amixer -q sset Master 2+"
+#bindsym XF86AudioMute exec amixer -q set Master mute
+#bindsym XF86AudioLowerVolume exec amixer -q set Master 5%- unmute
+#bindsym XF86AudioRaiseVolume exec amixer -q set Master 5%+ unmute
+bindsym $mod+m exec amixer -q set Master mute
+bindsym $mod+plus exec amixer -q set Master 5%+ unmute
+bindsym $mod+minus exec amixer -q set Master 5%- unmute
 
 # switch to workspace
 bindsym $mod+1 workspace 1
@@ -198,7 +192,8 @@ set $Locker i3lock && sleep 1
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hiberante, (r) reboot, (shift+s) shutdown
 mode "$mode_system" {
-	bindsym l exec --no-startup-id $Locker, mode "default"
+	#bindsym l exec --no-startup-id $Locker, mode "default"
+	bindsym l exec ~/Scripts/i3lockscreen.sh
 	bindsym e exec --no-startup-id i3-msg exit, mode "default"
 	bindsym s exec --no-startup-id $Locker && systemctl suspend, mode "default"
 	bindsym h exec --no-startup-id $Locker && systemctl hibernate, mode "default"
