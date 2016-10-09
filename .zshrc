@@ -104,6 +104,7 @@ alias glog-"git --no-pager log --graph --oneline --decorate --all --pretty=forma
 alias gstatus="git status -sb"
 alias gbranches="git branch --all"
 alias gadd="git add --all"
+alias gcommit="git commit -m"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -U compinit
