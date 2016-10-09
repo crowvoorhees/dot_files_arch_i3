@@ -54,7 +54,7 @@ plugins=(git zsh-syntax-highlighting web-search tmux)
 export PATH="/usr/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 export MANPAGER="env MAN_PN=1 vim -M +MANPAGER -"
-
+export GIT_PAGER=cat
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
