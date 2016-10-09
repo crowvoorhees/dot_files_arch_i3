@@ -105,6 +105,9 @@ alias gstatus="git status -sb"
 alias gbranches="git branch --all"
 alias gadd="git add --all"
 alias gcommit="git commit -m"
+alias pipes="bash ~/Scripts/pipes.sh"
+alias rain="bash ~/Scripts/rain.sh"
+
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -U compinit
