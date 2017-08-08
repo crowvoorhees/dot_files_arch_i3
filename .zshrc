@@ -100,14 +100,14 @@ alias i3config='vim ~/.i3/config'
 alias zshrc='vim ~/.zshrc'
 alias bashrc='vim ~/.bashrc'
 alias fishrc='vim ~/.fishrc'
-alias glog-"git --no-pager log --graph --oneline --decorate --all --pretty=format:'%Cred%h%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date-relative"
-alias gstatus="git status -sb"
-alias gbranches="git branch --all"
-alias gadd="git add --all"
-alias gcommit="git commit -m"
-alias pipes="bash ~/Scripts/pipes.sh"
-alias rain="bash ~/Scripts/rain.sh"
-
+alias glog="git --no-pager log --graph --oneline --decorate --all --pretty=format:'%Cred%h%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gstatus='git status -sb'
+alias gbranches='git branch --all'
+alias gadd='git add --all'
+alias gcommit='git commit -m'
+alias pipes='bash ~/Scripts/pipes.sh'
+alias rain='bash ~/Scripts/rain.sh'
+alias pacclean='paccache -rk2 && paccache -ruk0' # removes cached installed packages up to the last 2 versions and all uninstalled packages
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -U compinit
