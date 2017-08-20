@@ -108,6 +108,7 @@ alias gcommit='git commit -m' # may not be working
 alias pipes='bash ~/Scripts/pipes.sh'
 alias rain='bash ~/Scripts/rain.sh'
 alias pacclean='paccache -rk2 && paccache -ruk0 && sudo pacman -Rns $(pacman -Qtdq)' # removes cached installed packages up to the last 2 versions and all uninstalled packages and orphans
+alias pacheck='bash ~/Scripts/pacheck.sh'
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -U compinit
