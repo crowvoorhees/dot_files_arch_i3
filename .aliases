@@ -1,0 +1,48 @@
+# custom
+alias mymenu='cat ~/.mymenu'
+alias pipes='bash ~/Scripts/pipes.sh'
+alias rain='bash ~/Scripts/rain.sh'
+alias pacheck='bash ~/Scripts/pacheck.sh'
+
+# base
+alias ls='ls -hF --color=tty'
+alias la='ls -a'
+alias ll='ls -l'
+alias lla='ll -a'
+alias zshrc='vim ~/.zshrc'
+alias bashrc='vim ~/.bashrc'
+alias fishrc='vim ~/.fishrc'
+
+# tree
+alias tree='tree -C'
+alias ta='tree -a'
+
+# tty-clock
+alias clock='tty-clock -c -C 4 -t -f %d%b%Y -b'
+
+# tmux
+alias tmuxkill='tmux kill-session -a'
+
+# screenfetch
+alias screenfetch='screenfetch -c 4, 1'
+
+# mocp
+alias mocp='mocp -T darkdot_theme'
+
+# i3
+alias i3statconfig='sudo vim /etc/i3status.conf'
+alias i3config='vim ~/.i3/config'
+
+# git
+alias glog="git --no-pager log --graph --oneline --decorate --all --pretty=format:'%Cred%h%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-=commit"
+alias gstatus='git status -sb'
+alias gbranches='git branch --all'
+alias gadd='git add --all'
+alias gcommit='git commit -m'
+
+# pacman
+alias pacup='sudo pacman -Syu'
+alias yup='yaourt -Syu --aur'
+alias pacremoveall='sudo pacman -Rcs'
+alias pacorphlist='sudo pacman -Qdt'
+alias paclean='sudo pacman -Sc'

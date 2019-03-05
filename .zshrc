@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/home/crowvoorhees/.oh-my-zsh
-
+export VISUAL="vim"
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
@@ -77,38 +77,7 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ls='ls -hF --color=tty'
-alias la='ls -a'
-alias ll='ls -l'
-alias lla='ll -a'
-alias tree='tree -C'
-alias ta='tree -a'
-alias clock='tty-clock -c -C 4 -t -f %d%b%Y -b'
-alias tmuxkill='tmux kill-session -a'
-alias mymenu='cat ~/.mymenu'
-alias pacup='sudo pacman -Syu'
-alias yup='yaourt -Syu --aur'
-alias screenfetch='screenfetch -c 4, 1'
-alias mocp='mocp -T darkdot_theme'
-alias minitube_audio_fix='sudo mv /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so /usr/lib/vlc/plugins/audio_output/libpulse_plugin.so_bak'
-alias i3statusconfig='sudo vim /etc/i3status.conf'
-alias i3config='vim ~/.i3/config' 
-alias zshrc='vim ~/.zshrc'
-alias bashrc='vim ~/.bashrc'
-alias fishrc='vim ~/.fishrc'
-alias glog="git --no-pager log --graph --oneline --decorate --all --pretty=format:'%Cred%h%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias gstatus='git status -sb'
-alias gbranches='git branch --all'
-alias gadd='git add --all'
-alias gcommit='git commit -m' # may not be working
-alias pipes='bash ~/Scripts/pipes.sh'
-alias rain='bash ~/Scripts/rain.sh'
-alias paclean='paccache -rk2 && paccache -ruk0 && sudo pacman -Rns $(pacman -Qtdq)' # removes cached installed packages up to the last 2 versions and all uninstalled packages and orphans
-alias pacheck='bash ~/Scripts/pacheck.sh'
+source $HOME/.aliases
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -U compinit

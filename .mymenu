@@ -9,14 +9,12 @@
  tmux          : terminal multiplexer
  tree          : directory list
  tty-clock     : terminal digital clock
- bleachbit     : junk cleaner
 
 [media]
  apvlv         : pdf viewer
  kodi          : media player
  mpv           : media player
- ncmpcpp       : music player
- mcop          : music player
+ mocp          : music player
 
 [internet]
  gcalcli       : google calendar client
@@ -29,6 +27,7 @@
  rtv           : reddit client
  turses        : twitter client
  weechat       : irc client
+ discord       : chat server
 
 [games]
  adom-noteye   : graphical rogue-like adventure
@@ -38,3 +37,7 @@
  nxengine      : cave story
  openarena     : quake III style shooter
  ufo           : ufo alien invasion
+ nazis         : doom mod
+ rekkr         : doom mod
+ strife        : doom mod
+ retroarch     : emulator suite
