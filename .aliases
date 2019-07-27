@@ -12,6 +12,7 @@ alias lla='ll -a'
 alias zshrc='vim ~/.zshrc'
 alias bashrc='vim ~/.bashrc'
 alias fishrc='vim ~/.fishrc'
+alias vimrc='vim ~/.vimrc'
 
 # tree
 alias tree='tree -C'
@@ -28,6 +29,14 @@ alias screenfetch='screenfetch -c 4, 1'
 
 # mocp
 alias mocp='mocp -T darkdot_theme'
+
+# streamlink
+alias streamlink='streamlink -p mpv'
+alias twitchstream='function _streamtwitch () { streamlink https://twitch.tv/$1 $2; unset -f _streamtwitch; }; _streamtwitch'
+
+
+# glances
+alias glances='glances --disable-bg'
 
 # i3
 alias i3statconfig='sudo vim /etc/i3status.conf'
@@ -46,3 +55,4 @@ alias yup='yaourt -Syu --aur'
 alias pacremoveall='sudo pacman -Rcs'
 alias pacorphlist='sudo pacman -Qdt'
 alias paclean='sudo pacman -Sc'
+alias bootfix='sudo umount /boot && sudo pacman -S linux && reboot'
