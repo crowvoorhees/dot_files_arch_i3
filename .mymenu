@@ -13,31 +13,31 @@
 [media]
  apvlv         : pdf viewer
  kodi          : media player
- mpv           : media player
  mocp          : music player
+ mpv           : media player
 
 [internet]
+ discord       : chat server
  gcalcli       : google calendar client
  geeknote      : evernote client
  howdoi        : instant coding answer
- livestreamer  : streaming application
  mcabber       : instant message client
  mutt          : email client
  pianobar      : pandora radio client
  rtv           : reddit client
+ streamlink    : streaming application
  turses        : twitter client
  weechat       : irc client
- discord       : chat server
 
 [games]
  adom-noteye   : graphical rogue-like adventure
  brogue        : rogue-like adventure
  dwarffortress : dwarf simulator
+ nazis         : doom mod
  ninvader      : space invaders clone
  nxengine      : cave story
  openarena     : quake III style shooter
- ufo           : ufo alien invasion
- nazis         : doom mod
  rekkr         : doom mod
- strife        : doom mod
  retroarch     : emulator suite
+ strife        : doom mod
+ ufo           : ufo alien invasion
