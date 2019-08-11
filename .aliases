@@ -34,7 +34,6 @@ alias mocp='mocp -T darkdot_theme'
 alias streamlink='streamlink -p mpv'
 alias twitchstream='function _streamtwitch () { streamlink https://twitch.tv/$1 $2; unset -f _streamtwitch; }; _streamtwitch'
 
-
 # glances
 alias glances='glances --disable-bg'
 
@@ -56,4 +55,7 @@ alias pacremoveall='sudo pacman -Rcs'
 alias pacorphlist='sudo pacman -Qdt'
 alias paclean='sudo pacman -Sc'
 alias pactree='pactree -d 1 -u'
+
+# arch fixes
 alias bootfix='sudo umount /boot && sudo pacman -S linux && reboot'
+alias update-grub='sudo grub-mkconfig -o /boot/grub/grub.cfg'

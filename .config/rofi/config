@@ -1,0 +1,7 @@
+rofi.column:          1
+rofi.font:            DejaVu Sans Mon, Icons 10
+rofi.hide-scrollbar:  true
+rofi.lines:           10
+rofi.sidebar-mode:    true
+rofi.theme:           theme_default
+rofi.width:           50
